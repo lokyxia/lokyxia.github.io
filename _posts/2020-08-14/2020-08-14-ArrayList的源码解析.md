@@ -14,7 +14,9 @@ tags: [ArrayList,Java]
 
    是List接口的实现类，而List接口继承Collection接口，同为List接口的实现类还有LinkList类，ArrayList与LinkList不同在于实现结构：
 
-   > ArrayList：数组结构
+   > ArrayList：数组结构 ，查询快，增删慢，效率高，线程不安全
+   >
+   > Vector：数组结构，查询快，增删慢，效率低，线程安全
    >
    > LinkList: 链表结构
 
